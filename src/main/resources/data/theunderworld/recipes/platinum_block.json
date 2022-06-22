@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "theunderworld:platinum_ingot"
+    }
+  },
+  "result": {
+    "item": "theunderworld:platinum_block"
+  }
+}

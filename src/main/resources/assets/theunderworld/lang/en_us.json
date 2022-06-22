@@ -1,0 +1,21 @@
+{
+  "item.theunderworld.platinum_ingot": "Platinum Ingot",
+  "item.theunderworld.raw_platinum": "Raw Platinum",
+  "item.theunderworld.forbidden_fossil": "Forbidden Fossil",
+
+  "block.theunderworld.platinum_block": "Platinum Block",
+  "block.theunderworld.stone_platinum_ore": "Stone Platinum Ore",
+  "block.theunderworld.fossil_ore": "Fossil Ore",
+  "block.theunderworld.core_ooze": "Core Ooze",
+  "block.theunderworld.virulent_log": "Virulent Log",
+  "block.theunderworld.virulent_wood": "Virulent Wood",
+  "block.theunderworld.stripped_virulent_log": "Stripped Virulent Log",
+  "block.theunderworld.stripped_virulent_wood": "Stripped Virulent Wood",
+  "block.theunderworld.virulent_planks": "Virulent Planks",
+  "block.theunderworld.virulent_leaves": "Virulent Leaves",
+
+
+
+
+  "itemGroup.theunderworld.theunderworld": "The Underworld"
+}

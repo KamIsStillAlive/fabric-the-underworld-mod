@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "theunderworld:block/virulent_log_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "theunderworld:block/virulent_log"
+    },
+    "axis=z": {
+      "model": "theunderworld:block/virulent_log_horizontal",
+      "x": 90
+    }
+  }
+}

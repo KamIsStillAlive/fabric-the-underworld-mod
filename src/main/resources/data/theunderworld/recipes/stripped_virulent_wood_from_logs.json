@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wood",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "theunderworld:stripped_virulent_log"
+    }
+  },
+  "result": {
+    "item": "theunderworld:stripped_virulent_wood",
+    "count": 3
+  }
+}

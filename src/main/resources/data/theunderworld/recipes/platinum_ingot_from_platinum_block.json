@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "platinum_ingot",
+  "ingredients": [
+    {
+      "item": "theunderworld:platinum_block"
+    }
+  ],
+  "result": {
+    "item": "theunderworld:platinum_ingot",
+    "count": 9
+  }
+}

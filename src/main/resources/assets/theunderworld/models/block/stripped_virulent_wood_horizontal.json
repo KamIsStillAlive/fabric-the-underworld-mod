@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "theunderworld:block/stripped_virulent_log_side",
+    "side": "theunderworld:block/stripped_virulent_log_side"
+  }
+}

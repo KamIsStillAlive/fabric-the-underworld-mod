@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "theunderworld:virulent_log",
+    "theunderworld:virulent_wood",
+    "theunderworld:stripped_virulent_log",
+    "theunderworld:stripped_virulent_wood",
+    "theunderworld:virulent_planks"
+  ]
+}

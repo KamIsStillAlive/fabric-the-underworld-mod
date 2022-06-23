@@ -1,11 +1,16 @@
 {
+  "item.theunderworld.forbidden_fossil": "Fósil prohibido",
   "item.theunderworld.platinum_ingot": "Lingote de platino",
   "item.theunderworld.raw_platinum": "Platino en bruto",
-  "item.theunderworld.forbidden_fossil": "Fósil prohibido",
   "item.theunderworld.platinum_helmet": "Casco de platino",
   "item.theunderworld.platinum_chestplate": "Peto de platino",
   "item.theunderworld.platinum_leggings": "Grebas de platino",
   "item.theunderworld.platinum_boots": "Botas de platino",
+  "item.theunderworld.platinum_sword": "Espada de platino",
+  "item.theunderworld.platinum_hoe": "Azada de platino",
+  "item.theunderworld.platinum_shovel": "Pala de platino",
+  "item.theunderworld.platinum_axe": "Hacha de platino",
+  "item.theunderworld.platinum_pickaxe": "Pico de platino",
 
   "block.theunderworld.platinum_block": "Bloque de platino",
   "block.theunderworld.stone_platinum_ore": "Mena de platino",

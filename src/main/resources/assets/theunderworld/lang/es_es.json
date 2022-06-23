@@ -1,0 +1,23 @@
+{
+  "item.theunderworld.platinum_ingot": "Lingote de platino",
+  "item.theunderworld.raw_platinum": "Platino en bruto",
+  "item.theunderworld.forbidden_fossil": "Fósil prohibido",
+  "item.theunderworld.platinum_helmet": "Casco de platino",
+  "item.theunderworld.platinum_chestplate": "Peto de platino",
+  "item.theunderworld.platinum_leggings": "Grebas de platino",
+  "item.theunderworld.platinum_boots": "Botas de platino",
+
+  "block.theunderworld.platinum_block": "Bloque de platino",
+  "block.theunderworld.stone_platinum_ore": "Mena de platino",
+  "block.theunderworld.fossil_ore": "Mena de fósil",
+  "block.theunderworld.core_ooze": "Nucleo rezumado",
+  "block.theunderworld.virulent_log": "Tronco virulento",
+  "block.theunderworld.virulent_wood": "Leño virulento",
+  "block.theunderworld.stripped_virulent_log": "Tronco virulento sin corteza",
+  "block.theunderworld.stripped_virulent_wood": "Leño virulento sin corteza",
+  "block.theunderworld.virulent_planks": "Tablones virulentos",
+  "block.theunderworld.virulent_leaves": "Hojas virulentas",
+  "block.theunderworld.virulent_sapling": "Brote virulento",
+
+  "itemGroup.theunderworld.theunderworld": "The Underworld"
+}

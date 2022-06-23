@@ -24,4 +24,5 @@ public class TheUnderworld implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 	}
+
 }

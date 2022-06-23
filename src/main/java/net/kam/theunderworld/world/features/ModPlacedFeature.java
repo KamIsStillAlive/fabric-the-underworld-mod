@@ -11,4 +11,5 @@ public class ModPlacedFeature {
     public static final RegistryEntry<PlacedFeature> PLATINUM_ORE_PLACED = PlacedFeatures.register("platinum_ore_placed",
             ModConfiguredFeatures.PLATINUM_ORE, ModOreFeatures.modifiersWithCount(7,
                     HeightRangePlacementModifier.trapezoid(YOffset.aboveBottom(-80),YOffset.aboveBottom(80))));
+
 }

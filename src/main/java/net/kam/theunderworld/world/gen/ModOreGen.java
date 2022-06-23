@@ -10,4 +10,5 @@ public class ModOreGen {
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
                 GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeature.PLATINUM_ORE_PLACED.getKey().get());
     }
+
 }

@@ -15,4 +15,5 @@ public class ModOreFeatures {
     public static List<PlacementModifier> modifiersWithCount(int count, PlacementModifier heightModifier) {
         return modifiers(CountPlacementModifier.of(count), heightModifier);
     }
+
 }

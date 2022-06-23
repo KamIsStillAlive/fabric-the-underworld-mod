@@ -13,4 +13,5 @@ public class ModConfiguredFeatures {
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> PLATINUM_ORE = ConfiguredFeatures.register("platinum_ore",
             Feature.ORE, new OreFeatureConfig(OVERWORLD_PLATINUM_ORES, 9));
+
 }

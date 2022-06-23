@@ -14,11 +14,14 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/theunderworld/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
+      "net.kam.theunderworld.TheUnderworld"
+    ],
+    "client": [
       "net.kam.theunderworld.TheUnderworld"
     ]
   },

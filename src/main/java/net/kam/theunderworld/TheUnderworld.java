@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.kam.theunderworld.block.ModBlocks;
 import net.kam.theunderworld.item.ModItems;
 import net.kam.theunderworld.util.ModRegistries;
+import net.kam.theunderworld.world.gen.ModWorldGen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,6 +15,7 @@ public class TheUnderworld implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModWorldGen.Init();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 

@@ -8,7 +8,7 @@ import net.minecraft.world.gen.GenerationStep;
 public class ModOreGen {
     public static void  generateOres(){
         BiomeModifications.addFeature(BiomeSelectors.foundInOverworld(),
-                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeature.PLATINUM_ORE_PLACED.getKey().get());
+                GenerationStep.Feature.UNDERGROUND_ORES, ModPlacedFeature.PLATINUM_ORE_PLACED.getKey().get());;
     }
 
 }

@@ -2,6 +2,10 @@
   "item.theunderworld.platinum_ingot": "Platinum Ingot",
   "item.theunderworld.raw_platinum": "Raw Platinum",
   "item.theunderworld.forbidden_fossil": "Forbidden Fossil",
+  "item.theunderworld.platinum_helmet": "Platinum Helmet",
+  "item.theunderworld.platinum_chestplate": "Platinum Chestplate",
+  "item.theunderworld.platinum_leggings": "Platinum Leggings",
+  "item.theunderworld.platinum_boots": "Platinum Boots",
 
   "block.theunderworld.platinum_block": "Platinum Block",
   "block.theunderworld.stone_platinum_ore": "Stone Platinum Ore",
@@ -14,9 +18,6 @@
   "block.theunderworld.virulent_planks": "Virulent Planks",
   "block.theunderworld.virulent_leaves": "Virulent Leaves",
   "block.theunderworld.virulent_sapling": "Virulent Sapling",
-
-
-
 
   "itemGroup.theunderworld.theunderworld": "The Underworld"
 }

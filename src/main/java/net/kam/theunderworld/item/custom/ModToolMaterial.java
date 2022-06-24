@@ -9,7 +9,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    PLATINUM(MiningLevels.IRON, 450, 6.0F, 3.5F, 25, () ->
+    PLATINUM(MiningLevels.IRON, 1456, 6.0F, 3.5F, 25, () ->
             Ingredient.ofItems(ModItems.PLATINUM_INGOT));
 
     private final int miningLevel;

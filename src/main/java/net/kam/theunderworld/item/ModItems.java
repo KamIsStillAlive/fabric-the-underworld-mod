@@ -21,41 +21,41 @@ public class ModItems {
     //Armor
     public static final Item PLATINUM_HELMET = registerItem("platinum_helmet",
             new ArmorItem(ModArmorMaterial.PLATINUM, EquipmentSlot.HEAD,
-                    new Item.Settings().group(ModItemGroup.THEUNDERWORLD)));
+                    new Item.Settings().group(ModItemGroup.THEUNDERWOLRDAARMOR)));
 
     public static final Item PLATINUM_CHESTPLATE = registerItem("platinum_chestplate",
             new ArmorItem(ModArmorMaterial.PLATINUM, EquipmentSlot.CHEST,
-                    new Item.Settings().group(ModItemGroup.THEUNDERWORLD)));
+                    new Item.Settings().group(ModItemGroup.THEUNDERWOLRDAARMOR)));
 
     public static final Item PLATINUM_LEGGINGS = registerItem("platinum_leggings",
             new ArmorItem(ModArmorMaterial.PLATINUM, EquipmentSlot.LEGS,
-                    new Item.Settings().group(ModItemGroup.THEUNDERWORLD)));
+                    new Item.Settings().group(ModItemGroup.THEUNDERWOLRDAARMOR)));
 
     public static final Item PLATINUM_BOOTS = registerItem("platinum_boots",
             new ArmorItem(ModArmorMaterial.PLATINUM, EquipmentSlot.FEET,
-                    new Item.Settings().group(ModItemGroup.THEUNDERWORLD)));
+                    new Item.Settings().group(ModItemGroup.THEUNDERWOLRDAARMOR)));
 
     // Tools
 
     public static final Item PLATINUM_SWORD = registerItem("platinum_sword",
-            new SwordItem(ModToolMaterial.PLATINUM, 4, 3f,
-                    new Item.Settings().group(ModItemGroup.THEUNDERWORLD)));
+            new SwordItem(ModToolMaterial.PLATINUM, 3, 3f,
+                    new Item.Settings().group(ModItemGroup.THEUNDERWOLRDAARMOR)));
 
     public static final Item PLATINUM_PICKAXE = registerItem("platinum_pickaxe",
             new ModPickaxeItem(ModToolMaterial.PLATINUM, 1, 2f,
-                    new FabricItemSettings().group(ModItemGroup.THEUNDERWORLD)));
+                    new FabricItemSettings().group(ModItemGroup.THEUNDERWOLRDAARMOR)));
 
     public static final Item PLATINUM_AXE = registerItem("platinum_axe",
-            new ModAxeItem(ModToolMaterial.PLATINUM, 6, 1f,
-                    new FabricItemSettings().group(ModItemGroup.THEUNDERWORLD)));
+            new ModAxeItem(ModToolMaterial.PLATINUM, 5, 1f,
+                    new FabricItemSettings().group(ModItemGroup.THEUNDERWOLRDAARMOR)));
 
     public static final Item PLATINUM_HOE = registerItem("platinum_hoe",
             new ModHoeItem(ModToolMaterial.PLATINUM, 0, 0f,
-                    new FabricItemSettings().group(ModItemGroup.THEUNDERWORLD)));
+                    new FabricItemSettings().group(ModItemGroup.THEUNDERWOLRDAARMOR)));
 
     public static final Item PLATINUM_SHOVEL = registerItem("platinum_shovel",
             new ShovelItem(ModToolMaterial.PLATINUM, 1, 2f,
-                    new FabricItemSettings().group(ModItemGroup.THEUNDERWORLD)));
+                    new FabricItemSettings().group(ModItemGroup.THEUNDERWOLRDAARMOR)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TheUnderworld.MOD_ID, name), item);

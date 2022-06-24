@@ -39,7 +39,7 @@ public class ModBlocks {
     public static final Block VIRULENT_LEAVES = registerBlock("virulent_leaves",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.THEUNDERWORLD);
     public static final Block VIRULENT_SAPLING = registerBlock("virulent_sapling",
-            new ModSaplingBlock(new AcaciaSaplingGenerator(), //Change AcaciaSaplingGenerator with the actual tree sapling generator
+            new ModSaplingBlock(new AcaciaSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.THEUNDERWORLD);
 
 

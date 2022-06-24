@@ -11,7 +11,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModArmorMaterial implements ArmorMaterial {
-    PLATINUM("platinum", 18, new int[]{3, 5, 7, 2}, 29,
+    PLATINUM("platinum", 180, new int[]{3, 5, 7, 2}, 29,
             SoundEvents.ITEM_ARMOR_EQUIP_GOLD, 0.0F, 0.0F,
             () -> Ingredient.ofItems(ModItems.PLATINUM_INGOT.getRecipeRemainder()));
 

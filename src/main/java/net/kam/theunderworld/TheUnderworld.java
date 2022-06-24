@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.kam.theunderworld.block.ModBlocks;
 import net.kam.theunderworld.item.ModItems;
 import net.kam.theunderworld.util.ModRegistries;
+import net.kam.theunderworld.world.dimension.TheUnderworldDimension;
 import net.kam.theunderworld.world.gen.ModWorldGen;
 import net.minecraft.client.render.RenderLayer;
 import org.slf4j.Logger;
@@ -18,6 +19,7 @@ public class TheUnderworld implements ModInitializer, ClientModInitializer {
 	@Override
 	public void onInitialize() {
 
+		TheUnderworldDimension.init();
 		ModWorldGen.Init();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();

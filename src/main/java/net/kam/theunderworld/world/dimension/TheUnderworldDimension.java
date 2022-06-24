@@ -2,14 +2,10 @@ package net.kam.theunderworld.world.dimension;
 
 import net.kam.theunderworld.TheUnderworld;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.Util;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.RegistryKey;
 import net.minecraft.world.World;
 import net.minecraft.world.dimension.DimensionType;
-import net.minecraft.world.gen.feature.MiscPlacedFeatures;
-
-import java.io.IOException;
 
 public class TheUnderworldDimension {
 

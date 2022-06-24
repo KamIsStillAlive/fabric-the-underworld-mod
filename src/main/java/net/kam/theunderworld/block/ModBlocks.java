@@ -20,8 +20,6 @@ public class ModBlocks {
 
     public static final Block PLATINUM_ORE = registerBlock("stone_platinum_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.THEUNDERWORLD);
-    public static final Block FOSSIL_ORE = registerBlock("fossil_ore",
-            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.THEUNDERWORLD);
 
     public static final Block CORE_OOZE = registerBlock("core_ooze",
             new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(0.05f).luminance(15)), ModItemGroup.THEUNDERWORLD);
@@ -41,6 +39,12 @@ public class ModBlocks {
     public static final Block VIRULENT_SAPLING = registerBlock("virulent_sapling",
             new ModSaplingBlock(new AcaciaSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.THEUNDERWORLD);
+
+    // Underworld Blocks
+    public static final  Block TSUMERATE = registerBlock("tsumerate",
+            new Block(FabricBlockSettings.copy(Blocks.STONE)), ModItemGroup.THEUNDERWORLD);
+    public static final Block FOSSIL_ORE = registerBlock("fossil_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.THEUNDERWORLD);
 
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {

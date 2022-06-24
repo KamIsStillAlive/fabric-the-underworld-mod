@@ -12,6 +12,6 @@ public class ModItemGroup {
             () -> new ItemStack(ModItems.PLATINUM_INGOT));
 
     public static final  ItemGroup THEUNDERWOLRDAARMOR = FabricItemGroupBuilder.build( new Identifier(TheUnderworld.MOD_ID, "theunderworld_armor"),
-            () -> new ItemStack(ModItems.PLATINUM_CHESTPLATE));
+            () -> new ItemStack(ModItems.PLATINUM_AXE));
 
 }

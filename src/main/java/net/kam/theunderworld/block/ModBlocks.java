@@ -7,11 +7,9 @@ import net.kam.theunderworld.block.custom.ModSaplingBlock;
 import net.kam.theunderworld.item.ModItemGroup;
 import net.minecraft.block.*;
 import net.minecraft.block.sapling.AcaciaSaplingGenerator;
-import net.minecraft.block.sapling.OakSaplingGenerator;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
@@ -20,7 +18,7 @@ public class ModBlocks {
     public static final Block PLATINUM_BLOCK = registerBlock("platinum_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(2f).requiresTool()), ModItemGroup.THEUNDERWORLD);
 
-    public static final Block STONE_PLATINUM_ORE = registerBlock("stone_platinum_ore",
+    public static final Block PLATINUM_ORE = registerBlock("stone_platinum_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool()), ModItemGroup.THEUNDERWORLD);
     public static final Block FOSSIL_ORE = registerBlock("fossil_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.THEUNDERWORLD);

@@ -58,7 +58,7 @@ public class ModItems {
                     new FabricItemSettings().group(ModItemGroup.THEUNDERWORLD)));
 
     private static Item registerItem(String name, Item item) {
-        return net.minecraft.util.registry.Registry.register(Registry.ITEM, new Identifier(TheUnderworld.MOD_ID, name), item);
+        return Registry.register(Registry.ITEM, new Identifier(TheUnderworld.MOD_ID, name), item);
     }
 
     public static void registerModItems(){

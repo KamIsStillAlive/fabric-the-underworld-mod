@@ -1,21 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "##",
-    "T ",
-    "T "
+    "###",
+    "# #"
   ],
   "key": {
     "#": {
       "item": "theunderworld:platinum_ingot"
-    },
-    "T": {
-      "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "theunderworld:platinum_hoe",
+    "item": "theunderworld:platinum_helmet",
     "count": 1
   }
-
 }

@@ -1,0 +1,9 @@
+{
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+      "top": "theunderworld:block/underworld_grass_block_top",
+      "bottom": "theunderworld:block/underworld_dirt",
+      "side": "theunderworld:block/underworld_grass_block",
+      "particle": "theunderworld:block/underworld_dirt"
+    }
+  }

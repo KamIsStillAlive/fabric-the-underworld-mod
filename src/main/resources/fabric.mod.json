@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "theunderworld",
-  "version": "${version}",
+  "version": "1.0",
 
   "name": "The Underworld",
   "description": "This is an example description! Tell everyone what your mod is about!",
@@ -9,8 +9,8 @@
     "KamIsStillAlive"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/the-underworld",
+    "sources": "https://github.com/KamIsStillAlive/fabric-the-underworld-mod"
   },
 
   "license": "MIT",

@@ -5,7 +5,7 @@
     "settings": "theunderworld:theunderworld_noise",
     "biome_source": {
       "type": "minecraft:fixed",
-      "biome": "minecraft:plains"
+      "biome": "theunderworld:virulent_swamps"
     }
   }
 }

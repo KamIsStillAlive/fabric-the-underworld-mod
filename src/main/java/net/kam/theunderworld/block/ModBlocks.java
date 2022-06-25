@@ -3,10 +3,10 @@ package net.kam.theunderworld.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.kam.theunderworld.TheUnderworld;
-import net.kam.theunderworld.block.custom.ModSaplingBlock;
+import net.kam.theunderworld.block.custom.UnderworldSaplingBlock;
 import net.kam.theunderworld.item.ModItemGroup;
+import net.kam.theunderworld.world.dimension.feature.tree.generator.VirulentSaplingGenerator;
 import net.minecraft.block.*;
-import net.minecraft.block.sapling.AcaciaSaplingGenerator;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -37,12 +37,19 @@ public class ModBlocks {
     public static final Block VIRULENT_LEAVES = registerBlock("virulent_leaves",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.THEUNDERWORLD);
     public static final Block VIRULENT_SAPLING = registerBlock("virulent_sapling",
-            new ModSaplingBlock(new AcaciaSaplingGenerator(),
+            new UnderworldSaplingBlock(new VirulentSaplingGenerator(),
                     FabricBlockSettings.copy(Blocks.OAK_SAPLING)), ModItemGroup.THEUNDERWORLD);
 
     // Underworld Blocks
+    public static final Block UNDERWORLD_GRASS_BLOCK = registerBlock("underworld_grass_block",
+            new GrassBlock(FabricBlockSettings.copy(Blocks.GRASS_BLOCK)), ModItemGroup.THEUNDERWORLD);
+
+    public static final Block UNDERWORLD_DIRT = registerBlock("underworld_dirt",
+            new Block(FabricBlockSettings.copy(Blocks.DIRT)), ModItemGroup.THEUNDERWORLD);
+
     public static final  Block TSUMERATE = registerBlock("tsumerate",
             new Block(FabricBlockSettings.copy(Blocks.STONE)), ModItemGroup.THEUNDERWORLD);
+
     public static final Block FOSSIL_ORE = registerBlock("fossil_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(1.5f).requiresTool()), ModItemGroup.THEUNDERWORLD);
 

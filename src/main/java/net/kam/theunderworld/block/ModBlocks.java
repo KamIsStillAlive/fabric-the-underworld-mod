@@ -24,6 +24,7 @@ public class ModBlocks {
     public static final Block CORE_OOZE = registerBlock("core_ooze",
             new Block(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).strength(0.05f).luminance(15)), ModItemGroup.THEUNDERWORLD);
 
+    // Virulent wood
     public static final Block VIRULENT_LOG = registerBlock("virulent_log",
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(2f)), ModItemGroup.THEUNDERWORLD);
     public static final Block VIRULENT_WOOD = registerBlock("virulent_wood",
@@ -34,6 +35,14 @@ public class ModBlocks {
             new PillarBlock(FabricBlockSettings.copy(Blocks.OAK_LOG).strength(2f)), ModItemGroup.THEUNDERWORLD);
     public static final Block VIRULENT_PLANKS = registerBlock("virulent_planks",
             new Block(FabricBlockSettings.copy(Blocks.OAK_PLANKS).strength(2f)), ModItemGroup.THEUNDERWORLD);
+    public static final Block VIRULENT_STAIRS = registerBlock("virulent_stairs",
+            new StairsBlock(VIRULENT_PLANKS.getDefaultState(), AbstractBlock.Settings.copy(VIRULENT_PLANKS)), ModItemGroup.THEUNDERWORLD);
+    public static final Block VIRULENT_SLAB = registerBlock("virulent_slab",
+            new SlabBlock(AbstractBlock.Settings.copy(VIRULENT_PLANKS)), ModItemGroup.THEUNDERWORLD);
+    public static final Block VIRULENT_FENCE = registerBlock("virulent_fence",
+            new FenceBlock(AbstractBlock.Settings.copy(VIRULENT_PLANKS)), ModItemGroup.THEUNDERWORLD);
+    public static final Block VIRULENT_FENCE_GATE = registerBlock("virulent_fence_gate",
+            new FenceGateBlock(AbstractBlock.Settings.copy(VIRULENT_PLANKS)), ModItemGroup.THEUNDERWORLD);
     public static final Block VIRULENT_LEAVES = registerBlock("virulent_leaves",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.THEUNDERWORLD);
     public static final Block VIRULENT_SAPLING = registerBlock("virulent_sapling",

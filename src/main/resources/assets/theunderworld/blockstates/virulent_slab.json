@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "theunderworld:block/virulent_slab"
+    },
+    "type=double": {
+      "model": "theunderworld:block/virulent_planks"
+    },
+    "type=top": {
+      "model": "theunderworld:block/virulent_slab_top"
+    }
+  }
+}

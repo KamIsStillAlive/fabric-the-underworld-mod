@@ -21,6 +21,10 @@
   "block.theunderworld.stripped_virulent_log": "Stripped Virulent Log",
   "block.theunderworld.stripped_virulent_wood": "Stripped Virulent Wood",
   "block.theunderworld.virulent_planks": "Virulent Planks",
+  "block.theunderworld.virulent_stairs": "Virulent Stairs",
+  "block.theunderworld.virulent_slab": "Virulent Slab",
+  "block.theunderworld.virulent_fence": "Virulent Fence",
+  "block.theunderworld.virulent_fence_gate": "Virulent Fence Gate",
   "block.theunderworld.virulent_leaves": "Virulent Leaves",
   "block.theunderworld.virulent_sapling": "Virulent Sapling",
   "block.theunderworld.tsumerate": "Tsumerate",
@@ -29,5 +33,4 @@
 
   "itemGroup.theunderworld.theunderworld": "The Underworld",
   "itemGroup.theunderworld.theunderworld_armor": "The Underworld Armor and Tools"
-
 }

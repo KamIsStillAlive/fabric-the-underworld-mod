@@ -43,6 +43,10 @@ public class ModBlocks {
             new FenceBlock(AbstractBlock.Settings.copy(VIRULENT_PLANKS)), ModItemGroup.THEUNDERWORLD);
     public static final Block VIRULENT_FENCE_GATE = registerBlock("virulent_fence_gate",
             new FenceGateBlock(AbstractBlock.Settings.copy(VIRULENT_PLANKS)), ModItemGroup.THEUNDERWORLD);
+    public static final Block VIRULENT_BUTTON = registerBlock("virulent_button",
+            new WoodenButtonBlock(AbstractBlock.Settings.copy(VIRULENT_PLANKS)), ModItemGroup.THEUNDERWORLD);
+    public static final Block VIRULENT_PRESSURE_PLATE = registerBlock("virulent_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, AbstractBlock.Settings.copy(VIRULENT_PLANKS)), ModItemGroup.THEUNDERWORLD);
     public static final Block VIRULENT_LEAVES = registerBlock("virulent_leaves",
             new LeavesBlock(FabricBlockSettings.copy(Blocks.OAK_LEAVES).nonOpaque()), ModItemGroup.THEUNDERWORLD);
     public static final Block VIRULENT_SAPLING = registerBlock("virulent_sapling",

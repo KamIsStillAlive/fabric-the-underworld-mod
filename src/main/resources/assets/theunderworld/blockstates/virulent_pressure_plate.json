@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "theunderworld:block/virulent_pressure_plate"
+    },
+    "powered=true": {
+      "model": "theunderworld:block/virulent_pressure_plate_down"
+    }
+  }
+}

@@ -57,6 +57,13 @@ public class ModItems {
             new ShovelItem(ModToolMaterial.PLATINUM, 1, 2f,
                     new FabricItemSettings().group(ModItemGroup.THEUNDERWOLRDAARMOR)));
 
+    // Weapons
+
+    public static final Item SONIC_BOOM_ITEM = registerItem("sonic_boom_item",
+            new SonicBoomItem(new FabricItemSettings().group(ModItemGroup.THEUNDERWORLD)));
+
+    // Registering
+
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(TheUnderworld.MOD_ID, name), item);
     }
